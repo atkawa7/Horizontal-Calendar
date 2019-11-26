@@ -28,7 +28,7 @@ ext {
 version = libraryVersion
 
 android {
-    compileSdkVersion 28
+    compileSdkVersion 29
 
     lintOptions {
         abortOnError false
@@ -36,7 +36,7 @@ android {
 
     defaultConfig {
         minSdkVersion 14
-        targetSdkVersion 28
+        targetSdkVersion 29
         versionCode 1
         versionName version
     }
@@ -49,8 +49,8 @@ android {
 }
 
 dependencies {
-    implementation 'androidx.appcompat:appcompat:1.0.0'
-    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
     implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
 }
 
